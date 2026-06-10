@@ -9,16 +9,18 @@ export async function generateStaticParams() {
 }
 
 interface Props {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }
 
-export default function ExerciseViewPage({ params }: Props) {
+export default async function ExerciseViewPage({ params }: Props) {
+  const { id } = await params;
+
   let test: MockTest;
   try {
-    test = getTestById(params.id);
+    test = getTestById(id);
   } catch {
     notFound();
   }
 
-  return <ExerciseViewClient test={test} testId={params.id} />;
+  return <ExerciseViewClient test={test} testId={id} />;
 }

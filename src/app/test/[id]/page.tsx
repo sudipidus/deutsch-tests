@@ -9,13 +9,15 @@ export async function generateStaticParams() {
 }
 
 interface Props {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }
 
-export default function TestOverviewPage({ params }: Props) {
+export default async function TestOverviewPage({ params }: Props) {
+  const { id } = await params;
+
   let test: MockTest;
   try {
-    test = getTestById(params.id);
+    test = getTestById(id);
   } catch {
     notFound();
   }
