@@ -1,0 +1,291 @@
+{
+  "id": "test-03",
+  "title": "Übungstest 3",
+  "level": "B1",
+  "reading": {
+    "part1": {
+      "type": "matching",
+      "instructions": "Lesen Sie die Überschriften (a-j) und die Texte (1-5). Welche Überschrift passt zu welchem Text?",
+      "items": [
+        { "id": "1", "text": "Immer mehr Schulen in Deutschland benutzen Tablets im Unterricht. Die Schüler können damit Texte lesen, Videos anschauen und interaktive Übungen machen. Nicht alle Lehrer sind begeistert, aber die meisten Schüler finden es gut." },
+        { "id": "2", "text": "Die Volkshochschule bietet ab September einen neuen Kurs an: Programmieren für Anfänger. In 10 Wochen lernt man die Grundlagen von Python. Vorkenntnisse sind nicht nötig." },
+        { "id": "3", "text": "Eine neue Studie zeigt, dass Kinder, die viel lesen, in der Schule bessere Noten haben. Experten empfehlen, dass Eltern ihren Kindern jeden Abend vorlesen sollen." },
+        { "id": "4", "text": "Das Studentenwerk bietet günstige Mittagessen für 3,50 Euro an. Die Mensa ist montags bis freitags von 11:30 bis 14 Uhr geöffnet. Es gibt jeden Tag ein vegetarisches Gericht." },
+        { "id": "5", "text": "Die Universität Hamburg führt ab dem Wintersemester ein neues Online-Studium ein. Studierende können ihren Bachelor komplett von zu Hause aus machen. Die Prüfungen finden aber an der Universität statt." }
+      ],
+      "options": [
+        { "id": "a", "text": "Digitaler Unterricht in der Schule" },
+        { "id": "b", "text": "Programmieren lernen ohne Erfahrung" },
+        { "id": "c", "text": "Lesen macht Kinder schlauer" },
+        { "id": "d", "text": "Günstiges Essen für Studierende" },
+        { "id": "e", "text": "Studieren von zu Hause" },
+        { "id": "f", "text": "Neue Schulbücher ab Herbst" },
+        { "id": "g", "text": "Mehr Lehrer für Grundschulen" },
+        { "id": "h", "text": "Kostenlose Nachhilfe für alle" },
+        { "id": "i", "text": "Sport an der Universität" },
+        { "id": "j", "text": "Bibliothek mit neuen Öffnungszeiten" }
+      ],
+      "correctMatches": { "1": "a", "2": "b", "3": "c", "4": "d", "5": "e" }
+    },
+    "part2": {
+      "type": "multiple-choice",
+      "text": "Digitale Medien spielen im Alltag von Jugendlichen eine große Rolle. Eine Umfrage hat gezeigt, dass Schüler zwischen 12 und 18 Jahren durchschnittlich drei Stunden am Tag ihr Smartphone benutzen. Sie schauen Videos, hören Musik und chatten mit Freunden.\n\nViele Eltern machen sich Sorgen, dass ihre Kinder zu viel Zeit am Handy verbringen. Sie befürchten, dass die Schulnoten darunter leiden. Studien zeigen aber, dass es nicht nur auf die Zeit ankommt, sondern auch darauf, was die Jugendlichen mit dem Smartphone machen. Wer das Handy zum Lernen nutzt, hat oft sogar bessere Noten.\n\nExperten empfehlen, dass Familien gemeinsam Regeln für die Handynutzung aufstellen. Zum Beispiel sollte das Handy beim Essen und beim Lernen ausgeschaltet sein. Abends sollte man das Smartphone mindestens eine Stunde vor dem Schlafen weglegen, weil das blaue Licht den Schlaf stören kann.",
+      "questions": [
+        {
+          "prompt": "Wie lange benutzen Jugendliche im Durchschnitt ihr Smartphone?",
+          "options": [
+            { "key": "a", "text": "Eine Stunde am Tag." },
+            { "key": "b", "text": "Drei Stunden am Tag." },
+            { "key": "c", "text": "Fünf Stunden am Tag." }
+          ],
+          "correct": "b"
+        },
+        {
+          "prompt": "Worüber machen sich viele Eltern Sorgen?",
+          "options": [
+            { "key": "a", "text": "Dass die Kinder zu viel fernsehen." },
+            { "key": "b", "text": "Dass die Kinder zu viel Zeit am Handy verbringen." },
+            { "key": "c", "text": "Dass die Kinder keine Freunde haben." }
+          ],
+          "correct": "b"
+        },
+        {
+          "prompt": "Was zeigen Studien über die Smartphone-Nutzung?",
+          "options": [
+            { "key": "a", "text": "Smartphones sind immer schlecht für die Noten." },
+            { "key": "b", "text": "Es kommt darauf an, wofür man das Handy benutzt." },
+            { "key": "c", "text": "Smartphones haben keinen Einfluss auf die Schule." }
+          ],
+          "correct": "b"
+        },
+        {
+          "prompt": "Was empfehlen Experten für Familien?",
+          "options": [
+            { "key": "a", "text": "Kinder sollten kein Smartphone haben." },
+            { "key": "b", "text": "Familien sollten gemeinsam Regeln aufstellen." },
+            { "key": "c", "text": "Eltern sollten die Handys kontrollieren." }
+          ],
+          "correct": "b"
+        },
+        {
+          "prompt": "Warum sollte man das Handy abends weglegen?",
+          "options": [
+            { "key": "a", "text": "Weil der Akku leer ist." },
+            { "key": "b", "text": "Weil das blaue Licht den Schlaf stören kann." },
+            { "key": "c", "text": "Weil es abends kein Internet gibt." }
+          ],
+          "correct": "b"
+        }
+      ]
+    },
+    "part3": {
+      "type": "matching",
+      "instructions": "Lesen Sie die Situationen (1-10) und die Anzeigen (a-l). Welche Anzeige passt zu welcher Situation?",
+      "items": [
+        { "id": "1", "text": "Sie möchten einen Sprachkurs am Wochenende besuchen." },
+        { "id": "2", "text": "Ihr Kind möchte ein Musikinstrument lernen." },
+        { "id": "3", "text": "Sie suchen einen Kindergarten für Ihr dreijähriges Kind." },
+        { "id": "4", "text": "Sie möchten Ihren Schulabschluss nachholen." },
+        { "id": "5", "text": "Sie suchen gebrauchte Schulbücher." },
+        { "id": "6", "text": "Sie möchten einen Computerkurs für Senioren finden." },
+        { "id": "7", "text": "Ihr Sohn braucht Hilfe bei den Hausaufgaben." },
+        { "id": "8", "text": "Sie möchten eine Ausbildung als Koch beginnen." },
+        { "id": "9", "text": "Sie suchen einen Malkurs für Erwachsene." },
+        { "id": "10", "text": "Sie möchten einen Erste-Hilfe-Kurs für den Führerschein machen." }
+      ],
+      "options": [
+        { "id": "a", "text": "Samstags-Sprachkurse — Deutsch, Englisch, Spanisch. Jeden Samstag 10-13 Uhr. Kleine Gruppen. 90 Euro/Monat." },
+        { "id": "b", "text": "Musikschule Harmonie — Klavier, Gitarre, Geige. Unterricht für Kinder ab 6 Jahren. Probestunde kostenlos!" },
+        { "id": "c", "text": "Kita Sonnenschein — Plätze frei für Kinder von 1-6 Jahren. Ganztags 7-17 Uhr. Warmes Mittagessen inklusive." },
+        { "id": "d", "text": "Abendschule — Hauptschulabschluss und Realschulabschluss. Abendkurse Mo-Do. Kostenlos! Anmeldung bis 15. August." },
+        { "id": "e", "text": "Bücherbörse — Gebrauchte Schulbücher kaufen und verkaufen. Online und vor Ort. Sparen Sie bis zu 60%!" },
+        { "id": "f", "text": "PC-Kurs für Senioren — Internet, E-Mail und Smartphone. Donnerstags 10-12 Uhr. Geduldig und langsam erklärt." },
+        { "id": "g", "text": "Hausaufgabenhilfe — Täglich 14-17 Uhr in der Jugendbibliothek. Ehrenamtliche helfen bei allen Fächern. Kostenlos!" },
+        { "id": "h", "text": "Ausbildung Koch/Köchin — Restaurant Vier Jahreszeiten sucht Azubi ab September. 3 Jahre. Bewerbung an: info@vj.de" },
+        { "id": "i", "text": "Malkurse für Erwachsene — Aquarell, Öl und Acryl. Mittwochs 18-20 Uhr. Anfänger willkommen! Material inklusive." },
+        { "id": "j", "text": "Erste-Hilfe-Kurs — 1 Tag, 9-16 Uhr. Gültig für Führerschein aller Klassen. 40 Euro. Jeden Samstag." },
+        { "id": "k", "text": "Schwimmkurs für Kinder — Ab 5 Jahren. Seepferdchen-Abzeichen. Samstags 10 Uhr. 8 Wochen, 60 Euro." },
+        { "id": "l", "text": "Yoga-Studio Balance — Kurse für Anfänger und Fortgeschrittene. Probetraining 10 Euro. Täglich 8-21 Uhr." }
+      ],
+      "correctMatches": { "1": "a", "2": "b", "3": "c", "4": "d", "5": "e", "6": "f", "7": "g", "8": "h", "9": "i", "10": "j" }
+    }
+  },
+  "sprachbausteine": {
+    "part1": {
+      "type": "cloze-mc",
+      "text": "Sehr geehrte Frau Bergmann,\n\nich habe Ihre Anzeige für die 3-Zimmer-Wohnung in der Goethestraße {{1}}. Ich suche {{2}} dem 1. April eine Wohnung für mich und meine Frau. Wir sind beide berufstätig und {{3}} keine Kinder.\n\nKönnten Sie mir bitte sagen, {{4}} die Wohnung einen Balkon hat? Das wäre uns sehr {{5}}. Außerdem möchte ich fragen, {{6}} Haustiere erlaubt sind, weil wir eine kleine Katze {{7}}.\n\nDie Miete von 750 Euro warm finden wir {{8}}. Wir könnten auch sofort eine Kaution {{9}}. Wäre es möglich, die Wohnung {{10}} Wochenende zu besichtigen?\n\nMit freundlichen Grüßen\nPavel und Jana Novak",
+      "blanks": [
+        { "id": "1", "options": ["gelesen", "geschrieben", "gehört"], "correct": "gelesen" },
+        { "id": "2", "options": ["ab", "seit", "von"], "correct": "ab" },
+        { "id": "3", "options": ["haben", "sind", "werden"], "correct": "haben" },
+        { "id": "4", "options": ["dass", "ob", "weil"], "correct": "ob" },
+        { "id": "5", "options": ["wichtig", "schlecht", "schwer"], "correct": "wichtig" },
+        { "id": "6", "options": ["wenn", "ob", "weil"], "correct": "ob" },
+        { "id": "7", "options": ["haben", "hatten", "hätten"], "correct": "haben" },
+        { "id": "8", "options": ["günstig", "teuer", "billig"], "correct": "günstig" },
+        { "id": "9", "options": ["bezahlen", "kaufen", "leihen"], "correct": "bezahlen" },
+        { "id": "10", "options": ["am", "im", "um"], "correct": "am" }
+      ]
+    },
+    "part2": {
+      "type": "cloze-wordbank",
+      "text": "Liebe Frau Hansen,\n\nwir sind Ihre neuen {{1}} aus dem dritten Stock. Wir sind letzte Woche {{2}} und möchten uns kurz vorstellen. Mein Name ist Jana und mein Mann {{3}} Pavel.\n\nWir haben bemerkt, dass der Aufzug seit gestern nicht {{4}}. Wissen Sie, an wen wir uns {{5}} können? Wir würden gern die {{6}} der Hausverwaltung bekommen.\n\nAußerdem wollten wir {{7}}, ob es bestimmte Ruhezeiten im Haus gibt. Wir möchten natürlich keine {{8}} machen und uns an alle Regeln halten.\n\nVielleicht können wir uns mal auf einen {{9}} treffen? Wir würden Sie gern besser {{10}}.\n\nHerzliche Grüße\nJana und Pavel Novak",
+      "wordbank": [
+        "Nachbarn", "eingezogen", "heißt", "funktioniert", "wenden",
+        "Telefonnummer", "fragen", "Probleme", "Kaffee", "kennenlernen",
+        "Mieter", "umgezogen", "ist", "geht", "schreiben"
+      ],
+      "correctFills": {
+        "1": "Nachbarn",
+        "2": "eingezogen",
+        "3": "heißt",
+        "4": "funktioniert",
+        "5": "wenden",
+        "6": "Telefonnummer",
+        "7": "fragen",
+        "8": "Probleme",
+        "9": "Kaffee",
+        "10": "kennenlernen"
+      }
+    }
+  },
+  "listening": {
+    "part1": {
+      "type": "true-false",
+      "dialogues": [
+        {
+          "transcript": "Frau: Entschuldigung, wo finde ich die Milch?\nMann: Die Milch steht im Gang 3, ganz hinten links neben dem Joghurt.\nFrau: Und haben Sie auch laktosefreie Milch?\nMann: Ja, die steht direkt daneben.",
+          "questions": [{ "prompt": "Der Supermarkt hat keine laktosefreie Milch.", "correct": false }]
+        },
+        {
+          "transcript": "Mann: Ich möchte diesen Pullover zurückgeben. Er gefällt meiner Frau nicht.\nFrau: Haben Sie den Kassenbon?\nMann: Ja, hier. Ich habe ihn erst vor drei Tagen gekauft.\nFrau: Kein Problem, Sie bekommen das Geld auf Ihr Konto zurück.",
+          "questions": [{ "prompt": "Der Mann bekommt sein Geld zurück.", "correct": true }]
+        },
+        {
+          "transcript": "Frau: Sag mal, hast du schon das neue Café in der Bahnhofstraße probiert?\nMann: Ja, der Kaffee ist super, aber die Kuchen sind mir zu teuer. 5 Euro für ein Stück Kuchen!\nFrau: Das stimmt, aber die Atmosphäre ist wirklich schön dort.\nMann: Ja, das finde ich auch.",
+          "questions": [{ "prompt": "Der Mann findet das Café insgesamt schlecht.", "correct": false }]
+        },
+        {
+          "transcript": "Mann: Guten Tag, ich hätte gern zehn Brötchen und ein Schwarzbrot.\nFrau: Die Brötchen sind leider schon ausverkauft. Wir haben aber noch Croissants.\nMann: Na gut, dann nehme ich fünf Croissants und das Schwarzbrot.\nFrau: Kommt sofort. Das macht zusammen 8,50 Euro.",
+          "questions": [{ "prompt": "Der Mann kauft zehn Brötchen.", "correct": false }]
+        },
+        {
+          "transcript": "Frau: Hast du am Samstag Zeit? Der neue Markt am Stadtrand hat eröffnet.\nMann: Ja, ich habe davon gehört. Die sollen sehr frisches Obst und Gemüse haben.\nFrau: Genau, und die Preise sollen auch gut sein. Sollen wir zusammen hinfahren?\nMann: Ja, gute Idee! Ich hole dich um 10 Uhr ab.",
+          "questions": [{ "prompt": "Die beiden wollen am Samstag zusammen zum Markt fahren.", "correct": true }]
+        }
+      ]
+    },
+    "part2": {
+      "type": "true-false",
+      "dialogues": [
+        {
+          "transcript": "Moderator: Herzlich willkommen zu unserem Verbrauchertipp. Heute geht es um das Thema Online-Shopping. Bei uns im Studio ist Frau Lehmann von der Verbraucherzentrale. Frau Lehmann, immer mehr Menschen kaufen im Internet ein. Worauf sollte man achten?\n\nFrau Lehmann: Zunächst einmal sollte man nur bei bekannten und seriösen Shops einkaufen. Man erkennt seriöse Shops zum Beispiel an einem Impressum und an sicheren Zahlungsmethoden. Wenn ein Angebot zu gut klingt, um wahr zu sein, dann ist es das wahrscheinlich auch.\n\nModerator: Was ist mit den Bewertungen anderer Kunden?\n\nFrau Lehmann: Bewertungen können hilfreich sein, aber man sollte vorsichtig sein. Manche Bewertungen sind gefälscht. Am besten liest man sowohl positive als auch negative Bewertungen und achtet auf Details.\n\nModerator: Und wenn man etwas zurückschicken möchte?\n\nFrau Lehmann: In Deutschland hat man bei Online-Käufen ein 14-tägiges Widerrufsrecht. Das bedeutet, man kann die Ware ohne Grund zurückschicken. Aber Achtung: Bei manchen Produkten, zum Beispiel bei Lebensmitteln oder persönlichen Hygieneartikeln, gilt das nicht.\n\nModerator: Haben Sie noch einen letzten Tipp?\n\nFrau Lehmann: Ja, man sollte seine Passwörter regelmäßig ändern und nie das gleiche Passwort für verschiedene Shops verwenden. Und am besten bezahlt man nicht per Vorkasse, sondern auf Rechnung oder per Lastschrift.\n\nModerator: Vielen Dank, Frau Lehmann!",
+          "questions": [
+            { "prompt": "Man sollte nur bei bekannten Online-Shops einkaufen.", "correct": true },
+            { "prompt": "Alle Kundenbewertungen im Internet sind zuverlässig.", "correct": false },
+            { "prompt": "Man sollte sowohl positive als auch negative Bewertungen lesen.", "correct": true },
+            { "prompt": "In Deutschland kann man Online-Käufe innerhalb von 30 Tagen zurückschicken.", "correct": false },
+            { "prompt": "Lebensmittel kann man immer zurückschicken.", "correct": false },
+            { "prompt": "Man hat ein 14-tägiges Widerrufsrecht bei Online-Käufen.", "correct": true },
+            { "prompt": "Man sollte für jeden Shop ein anderes Passwort verwenden.", "correct": true },
+            { "prompt": "Vorkasse ist die sicherste Zahlungsmethode.", "correct": false },
+            { "prompt": "Ein Impressum ist ein Zeichen für einen seriösen Shop.", "correct": true },
+            { "prompt": "Frau Lehmann findet Online-Shopping generell gefährlich.", "correct": false }
+          ]
+        }
+      ]
+    },
+    "part3": {
+      "type": "matching",
+      "instructions": "Sie hören fünf kurze Nachrichten. Welche Nachricht passt zu welcher Situation?",
+      "items": [
+        { "id": "1", "text": "Guten Tag, hier ist das Möbelhaus Comfort. Ihr bestelltes Sofa ist angekommen. Wir können es am Mittwoch zwischen 10 und 14 Uhr liefern. Bitte rufen Sie uns an, um den Termin zu bestätigen." },
+        { "id": "2", "text": "Hallo Lisa, hier ist Mama. Ich wollte fragen, ob du am Sonntag zum Mittagessen kommst. Papa kocht sein berühmtes Gulasch. Oma und Opa kommen auch. Ruf mich bitte zurück!" },
+        { "id": "3", "text": "Sehr geehrter Herr Meier, Ihr Auto ist fertig. Die Reparatur hat etwas länger gedauert als geplant, aber jetzt funktioniert alles wieder. Sie können das Auto ab morgen früh abholen." },
+        { "id": "4", "text": "Hallo zusammen, hier ist eure Hausverwaltung. Am Donnerstag wird von 8 bis 12 Uhr das Wasser abgestellt, weil Reparaturen an den Leitungen nötig sind. Bitte stellen Sie sich darauf ein." },
+        { "id": "5", "text": "Guten Tag, Frau Schmidt. Hier ist die Reinigung. Ihr Kleid ist fertig und Sie können es abholen. Wir haben auch den Fleck herausbekommen. Unsere Öffnungszeiten sind 8 bis 18 Uhr." }
+      ],
+      "options": [
+        { "id": "a", "text": "Eine Einladung zum Familienessen" },
+        { "id": "b", "text": "Möbel werden geliefert" },
+        { "id": "c", "text": "Kleidung ist abholbereit" },
+        { "id": "d", "text": "Auto-Reparatur ist fertig" },
+        { "id": "e", "text": "Wassersperrung im Haus" },
+        { "id": "f", "text": "Einladung zur Hochzeit" },
+        { "id": "g", "text": "Paket bei der Post abholen" }
+      ],
+      "correctMatches": { "1": "b", "2": "a", "3": "d", "4": "e", "5": "c" }
+    }
+  },
+  "writing": {
+    "task": {
+      "prompt": "Ein Freund aus Ihrem Heimatland möchte Sie in Deutschland besuchen. Schreiben Sie ihm eine E-Mail.",
+      "situation": "Ihr guter Freund Carlos aus Ihrem Heimatland hat Ihnen geschrieben, dass er im Juli nach Deutschland kommen möchte. Er war noch nie in Deutschland und braucht Informationen.",
+      "contentPoints": [
+        "Freuen Sie sich über den Besuch",
+        "Schlagen Sie vor, wann er kommen soll und wie lange",
+        "Beschreiben Sie, was Sie zusammen machen können",
+        "Geben Sie ihm praktische Tipps für die Reise"
+      ],
+      "modelAnswer": "Lieber Carlos,\n\nich habe mich so gefreut, als ich deine Nachricht gelesen habe! Es ist eine tolle Idee, dass du nach Deutschland kommst. Ich freue mich schon sehr auf deinen Besuch!\n\nAm besten kommst du Mitte Juli, zum Beispiel vom 10. bis zum 20. Juli. Dann habe ich auch Urlaub und wir haben genug Zeit für alles. Du kannst natürlich bei mir schlafen, ich habe ein Gästezimmer.\n\nWir können zusammen Berlin besichtigen — das Brandenburger Tor, die Museumsinsel und den Mauerpark. Und am Wochenende könnten wir einen Ausflug nach Potsdam machen, das ist wunderschön dort.\n\nEin Tipp: Bring unbedingt bequeme Schuhe mit, weil wir viel laufen werden. Und eine leichte Jacke, denn abends kann es auch im Sommer kühl werden. Für die U-Bahn gibt es ein günstiges Wochenticket.\n\nSchreib mir, wann du genau kommen möchtest!\n\nViele Grüße\nDein Alex"
+    }
+  },
+  "speaking": {
+    "part1": {
+      "instructions": "Stellen Sie sich Ihrem Partner / Ihrer Partnerin vor. Sprechen Sie über die folgenden Punkte:",
+      "prompts": [
+        "Name",
+        "Woher kommen Sie?",
+        "Wo wohnen Sie jetzt?",
+        "Was machen Sie beruflich? / Was studieren Sie?",
+        "Welche Sprachen sprechen Sie?",
+        "Was sind Ihre Hobbys?"
+      ],
+      "modelAnswer": "Hallo, ich bin Yuki und komme aus Japan, aus Osaka. Seit sechs Monaten wohne ich in Hamburg. Ich studiere Umweltwissenschaften an der Universität Hamburg. Ich spreche Japanisch und Englisch fließend und lerne seit einem Jahr Deutsch. In meiner Freizeit fotografiere ich gern und gehe in Museen. Außerdem koche ich sehr gern — besonders japanisches Essen, das vermisse ich manchmal hier!",
+      "checklist": [
+        "Habe ich meinen Namen gesagt?",
+        "Habe ich über meine Herkunft gesprochen?",
+        "Habe ich meinen Wohnort erwähnt?",
+        "Habe ich über meinen Beruf/mein Studium gesprochen?",
+        "Habe ich meine Sprachkenntnisse genannt?",
+        "Habe ich über meine Hobbys gesprochen?"
+      ]
+    },
+    "part2": {
+      "instructions": "Sprechen Sie mit Ihrem Partner / Ihrer Partnerin über das Thema \"Umwelt und Nachhaltigkeit\". Tauschen Sie Ihre Meinungen und Erfahrungen aus.",
+      "prompts": [
+        "Was tun Sie persönlich für die Umwelt?",
+        "Trennen Sie Ihren Müll? Wie funktioniert das in Ihrem Land?",
+        "Fahren Sie mit dem Auto oder benutzen Sie öffentliche Verkehrsmittel?",
+        "Kaufen Sie Bio-Produkte? Warum / warum nicht?",
+        "Was kann jeder Einzelne tun, um die Umwelt zu schützen?"
+      ],
+      "modelAnswer": "Ich versuche, im Alltag auf die Umwelt zu achten. Zum Beispiel trenne ich meinen Müll — Papier, Plastik, Glas und Restmüll. In Japan ist das sehr streng, hier in Deutschland ist es ähnlich.\n\nIch fahre meistens mit dem Fahrrad oder mit der U-Bahn. Ein Auto habe ich nicht und brauche ich auch nicht in der Stadt. Das spart Geld und ist besser für die Umwelt.\n\nBio-Produkte kaufe ich manchmal, aber nicht immer, weil sie ziemlich teuer sind. Obst und Gemüse kaufe ich aber gern auf dem Wochenmarkt, das ist frischer und es gibt weniger Verpackung.\n\nIch denke, jeder kann etwas tun: weniger Plastik benutzen, Wasser sparen und öfter mit dem Fahrrad fahren statt mit dem Auto.",
+      "checklist": [
+        "Habe ich über mein persönliches Umweltverhalten gesprochen?",
+        "Habe ich das Thema Mülltrennung angesprochen?",
+        "Habe ich über Verkehrsmittel gesprochen?",
+        "Habe ich meine Meinung zu Bio-Produkten gesagt?",
+        "Habe ich Vorschläge für Umweltschutz gemacht?"
+      ]
+    },
+    "part3": {
+      "instructions": "Sie und Ihr Partner / Ihre Partnerin möchten zusammen ein Geschenk für einen gemeinsamen Freund kaufen. Planen Sie das gemeinsam.",
+      "prompts": [
+        "Was für ein Geschenk soll es sein?",
+        "Wie viel Geld möchten Sie ausgeben?",
+        "Wo kaufen Sie das Geschenk — im Laden oder online?",
+        "Wann müssen Sie das Geschenk haben?",
+        "Soll das Geschenk eine Überraschung sein?"
+      ],
+      "modelAnswer": "Unser Freund Tom hat nächste Woche Geburtstag. Was schenken wir ihm? Er kocht doch so gern — wie wäre es mit einem Kochbuch? Oder vielleicht einem Kochkurs für zwei Personen?\n\nIch finde, wir könnten zusammen etwa 50 Euro ausgeben, also 25 Euro pro Person. Das ist nicht zu viel und nicht zu wenig. Den Kochkurs könnten wir im Internet buchen, das geht am schnellsten.\n\nWir brauchen das Geschenk bis Freitag, weil die Party am Samstag ist. Wenn wir es online bestellen, sollten wir es heute noch machen. Und ja, es soll eine Überraschung sein — also sagen wir ihm nichts vorher! Ich drucke den Gutschein aus und du besorgst eine schöne Karte, okay?",
+      "checklist": [
+        "Haben wir uns auf ein Geschenk geeinigt?",
+        "Haben wir das Budget besprochen?",
+        "Haben wir den Kaufort entschieden?",
+        "Haben wir den Zeitplan berücksichtigt?",
+        "Haben wir die Aufgaben verteilt?"
+      ]
+    }
+  }
+}

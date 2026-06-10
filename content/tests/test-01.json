@@ -1,0 +1,291 @@
+{
+  "id": "test-01",
+  "title": "Übungstest 1",
+  "level": "B1",
+  "reading": {
+    "part1": {
+      "type": "matching",
+      "instructions": "Lesen Sie die Überschriften (a-j) und die Texte (1-5). Welche Überschrift passt zu welchem Text?",
+      "items": [
+        { "id": "1", "text": "Am Samstag findet im Stadtpark ein großer Flohmarkt statt. Von 8 bis 16 Uhr kann man dort gebrauchte Bücher, Kleidung, Spielzeug und Möbel kaufen. Der Eintritt ist frei." },
+        { "id": "2", "text": "Die neue Schwimmhalle am Bahnhof öffnet nächste Woche. Sie hat ein 50-Meter-Becken, einen Kinderbereich und eine Sauna. Erwachsene zahlen 6 Euro Eintritt." },
+        { "id": "3", "text": "Ich suche eine Mitfahrgelegenheit von Berlin nach München am Freitag, den 15. März. Ich kann mich an den Benzinkosten beteiligen. Bitte melden Sie sich unter 0170-1234567." },
+        { "id": "4", "text": "Der Deutschkurs für Anfänger beginnt am 1. April. Er findet montags und mittwochs von 18 bis 20 Uhr statt. Die Kursgebühr beträgt 120 Euro für 12 Wochen." },
+        { "id": "5", "text": "Familie Schmidt sucht eine 3-Zimmer-Wohnung in der Innenstadt. Bis 800 Euro warm. Wir haben zwei Kinder und keine Haustiere. Kontakt: schmidt@email.de" }
+      ],
+      "options": [
+        { "id": "a", "text": "Neues Sportangebot in der Stadt" },
+        { "id": "b", "text": "Zusammen fahren und Geld sparen" },
+        { "id": "c", "text": "Gebrauchte Sachen kaufen und verkaufen" },
+        { "id": "d", "text": "Wohnung zu vermieten" },
+        { "id": "e", "text": "Sprachen lernen am Abend" },
+        { "id": "f", "text": "Familie sucht neues Zuhause" },
+        { "id": "g", "text": "Neue Bibliothek eröffnet" },
+        { "id": "h", "text": "Hilfe im Haushalt gesucht" },
+        { "id": "i", "text": "Günstig reisen mit dem Zug" },
+        { "id": "j", "text": "Sommerfest im Park" }
+      ],
+      "correctMatches": { "1": "c", "2": "a", "3": "b", "4": "e", "5": "f" }
+    },
+    "part2": {
+      "type": "multiple-choice",
+      "text": "Maria hat letztes Jahr eine Ausbildung als Krankenschwester begonnen. Am Anfang war es sehr schwer für sie, weil sie oft nachts arbeiten musste. Sie konnte sich lange nicht daran gewöhnen, tagsüber zu schlafen. Außerdem war die Arbeit körperlich anstrengend. Aber nach ein paar Monaten hat sie sich daran gewöhnt und findet die Arbeit jetzt sehr interessant.\n\nBesonders gut gefällt ihr der Kontakt mit den Patienten. Viele sind dankbar für ihre Hilfe und das motiviert sie jeden Tag. Ihre Kolleginnen und Kollegen sind auch sehr nett und helfen ihr, wenn sie Fragen hat.\n\nIn zwei Jahren wird Maria ihre Ausbildung beenden. Danach möchte sie gern in einem Kinderkrankenhaus arbeiten, weil sie besonders gern mit Kindern arbeitet. Sie überlegt auch, ob sie später noch ein Studium in Pflegewissenschaft machen soll.",
+      "questions": [
+        {
+          "prompt": "Warum war der Anfang der Ausbildung schwer für Maria?",
+          "options": [
+            { "key": "a", "text": "Sie hat wenig Geld verdient." },
+            { "key": "b", "text": "Sie musste oft in der Nacht arbeiten." },
+            { "key": "c", "text": "Ihre Kollegen waren nicht freundlich." }
+          ],
+          "correct": "b"
+        },
+        {
+          "prompt": "Was gefällt Maria an ihrer Arbeit besonders?",
+          "options": [
+            { "key": "a", "text": "Das hohe Gehalt." },
+            { "key": "b", "text": "Die kurzen Arbeitszeiten." },
+            { "key": "c", "text": "Der Kontakt mit den Patienten." }
+          ],
+          "correct": "c"
+        },
+        {
+          "prompt": "Wie sind Marias Kollegen?",
+          "options": [
+            { "key": "a", "text": "Sie sind hilfsbereit und freundlich." },
+            { "key": "b", "text": "Sie sprechen nicht viel mit Maria." },
+            { "key": "c", "text": "Sie arbeiten lieber allein." }
+          ],
+          "correct": "a"
+        },
+        {
+          "prompt": "Wann wird Maria mit der Ausbildung fertig sein?",
+          "options": [
+            { "key": "a", "text": "Nächstes Jahr." },
+            { "key": "b", "text": "In zwei Jahren." },
+            { "key": "c", "text": "In drei Jahren." }
+          ],
+          "correct": "b"
+        },
+        {
+          "prompt": "Was möchte Maria nach der Ausbildung machen?",
+          "options": [
+            { "key": "a", "text": "In einem Kinderkrankenhaus arbeiten." },
+            { "key": "b", "text": "Ins Ausland gehen." },
+            { "key": "c", "text": "Eine eigene Praxis eröffnen." }
+          ],
+          "correct": "a"
+        }
+      ]
+    },
+    "part3": {
+      "type": "matching",
+      "instructions": "Lesen Sie die Situationen (1-10) und die Anzeigen (a-l). Welche Anzeige passt zu welcher Situation?",
+      "items": [
+        { "id": "1", "text": "Sie möchten am Wochenende mit Ihren Kindern etwas unternehmen." },
+        { "id": "2", "text": "Sie suchen einen Job für den Abend." },
+        { "id": "3", "text": "Ihr Computer ist kaputt und Sie brauchen Hilfe." },
+        { "id": "4", "text": "Sie möchten Italienisch lernen." },
+        { "id": "5", "text": "Sie suchen ein günstiges Fahrrad." },
+        { "id": "6", "text": "Sie wollen am Samstag essen gehen." },
+        { "id": "7", "text": "Ihre Waschmaschine funktioniert nicht mehr." },
+        { "id": "8", "text": "Sie suchen eine Wohnung für zwei Personen." },
+        { "id": "9", "text": "Sie möchten Sport in einer Gruppe machen." },
+        { "id": "10", "text": "Sie brauchen jemanden, der auf Ihre Katze aufpasst." }
+      ],
+      "options": [
+        { "id": "a", "text": "Familientag im Zoo — Jeden Sonntag: Kinder bis 12 Jahre frei! Viele Aktionen und Führungen." },
+        { "id": "b", "text": "Kellner/in gesucht — Restaurant Roma sucht Bedienung für abends (18-23 Uhr). Erfahrung erwünscht." },
+        { "id": "c", "text": "PC-Notdienst — Schnelle Hilfe bei Computerproblemen. Hausbesuche möglich. Tel: 030-9876543" },
+        { "id": "d", "text": "Sprachschule International — Italienischkurse für Anfänger und Fortgeschrittene. Abendkurse ab September." },
+        { "id": "e", "text": "Gebrauchte Fahrräder — Große Auswahl, ab 50 Euro. Reparaturservice. Mo-Sa 10-18 Uhr." },
+        { "id": "f", "text": "Griechisches Restaurant Olympia — Samstags Live-Musik! Reservierung unter 030-1111222." },
+        { "id": "g", "text": "Waschmaschinen-Reparatur — Alle Marken. 24h-Service. Festpreis 89 Euro. Anruf genügt!" },
+        { "id": "h", "text": "2-Zimmer-Wohnung — 65 qm, Altbau, Balkon. 650 Euro warm. Ab sofort frei." },
+        { "id": "i", "text": "Laufgruppe Stadtpark — Jeden Mittwoch 18 Uhr. Alle Levels willkommen. Einfach vorbeikommen!" },
+        { "id": "j", "text": "Katzensitter gesucht? — Liebevolle Betreuung bei Ihnen zu Hause. Erfahrung mit Tieren. Flexible Zeiten." },
+        { "id": "k", "text": "Nachhilfe Mathematik — Für Schüler Klasse 5-10. Einzelunterricht. 15 Euro/Stunde." },
+        { "id": "l", "text": "Umzugshelfer — Zwei starke Männer helfen beim Umzug. LKW vorhanden. Fair Preise." }
+      ],
+      "correctMatches": { "1": "a", "2": "b", "3": "c", "4": "d", "5": "e", "6": "f", "7": "g", "8": "h", "9": "i", "10": "j" }
+    }
+  },
+  "sprachbausteine": {
+    "part1": {
+      "type": "cloze-mc",
+      "text": "Liebe Frau Müller,\n\nich schreibe Ihnen, {{1}} ich eine Frage zu meinem Mietvertrag habe. Ich habe {{2}} einen Brief von Ihnen bekommen, in dem steht, dass die Miete ab nächstem Monat steigt. Ich möchte gern wissen, {{3}} die Miete erhöht wird. In meinem Vertrag steht, {{4}} die Miete im ersten Jahr nicht steigen darf. Ich wohne aber {{5}} seit acht Monaten hier.\n\nKönnten Sie mir bitte erklären, {{6}} das bedeutet? Ich würde mich {{7}} freuen, wenn wir einen Termin {{8}} könnten, um darüber zu sprechen. Am besten {{9}} es mir am Donnerstagnachmittag. Bitte rufen Sie mich {{10}} 0170-9876543 an.\n\nMit freundlichen Grüßen\nThomas Weber",
+      "blanks": [
+        { "id": "1", "options": ["weil", "damit", "obwohl"], "correct": "weil" },
+        { "id": "2", "options": ["gestern", "morgen", "übermorgen"], "correct": "gestern" },
+        { "id": "3", "options": ["warum", "wann", "wo"], "correct": "warum" },
+        { "id": "4", "options": ["ob", "dass", "weil"], "correct": "dass" },
+        { "id": "5", "options": ["erst", "schon", "noch"], "correct": "erst" },
+        { "id": "6", "options": ["was", "wer", "wie"], "correct": "was" },
+        { "id": "7", "options": ["gern", "sehr", "viel"], "correct": "sehr" },
+        { "id": "8", "options": ["machen", "haben", "nehmen"], "correct": "machen" },
+        { "id": "9", "options": ["passt", "geht", "kommt"], "correct": "passt" },
+        { "id": "10", "options": ["unter", "auf", "mit"], "correct": "unter" }
+      ]
+    },
+    "part2": {
+      "type": "cloze-wordbank",
+      "text": "Sehr geehrte Damen und Herren,\n\nich habe Ihre Anzeige für die Stelle als Verkäufer {{1}}. Ich bin 28 Jahre alt und habe drei Jahre {{2}} in einem Schuhgeschäft gearbeitet. Ich {{3}} sehr gut mit Kunden umgehen und bin {{4}} und freundlich.\n\nMomentam {{5}} ich einen Deutschkurs, weil ich mein Deutsch noch {{6}} möchte. Ich kann sofort {{7}} und bin auch bereit, am Wochenende zu {{8}}. Über eine Einladung zu einem {{9}} würde ich mich sehr freuen.\n\nMit freundlichen {{10}}\nAna Petrova",
+      "wordbank": [
+        "gelesen", "Erfahrung", "kann", "zuverlässig", "besuche",
+        "verbessern", "anfangen", "arbeiten", "Vorstellungsgespräch", "Grüßen",
+        "geschrieben", "Ausbildung", "will", "pünktlich", "lerne"
+      ],
+      "correctFills": {
+        "1": "gelesen",
+        "2": "Erfahrung",
+        "3": "kann",
+        "4": "zuverlässig",
+        "5": "besuche",
+        "6": "verbessern",
+        "7": "anfangen",
+        "8": "arbeiten",
+        "9": "Vorstellungsgespräch",
+        "10": "Grüßen"
+      }
+    }
+  },
+  "listening": {
+    "part1": {
+      "type": "true-false",
+      "dialogues": [
+        {
+          "transcript": "Mann: Entschuldigung, können Sie mir sagen, wo der nächste Supermarkt ist?\nFrau: Ja, gehen Sie hier geradeaus und dann die zweite Straße links. Der Supermarkt ist auf der rechten Seite.\nMann: Ist er noch geöffnet? Es ist schon fast 20 Uhr.\nFrau: Ja, der hat bis 22 Uhr auf.",
+          "questions": [{ "prompt": "Der Supermarkt ist schon geschlossen.", "correct": false }]
+        },
+        {
+          "transcript": "Frau: Hallo Peter, kommst du morgen zu meiner Geburtstagsfeier?\nMann: Oh, das tut mir leid, aber morgen muss ich arbeiten. Ich habe Spätschicht bis 22 Uhr.\nFrau: Schade! Dann feiern wir am Wochenende zusammen, okay?\nMann: Ja, das machen wir!",
+          "questions": [{ "prompt": "Peter kann nicht zur Geburtstagsfeier kommen.", "correct": true }]
+        },
+        {
+          "transcript": "Mann: Guten Tag, ich möchte dieses Hemd umtauschen. Es ist zu klein.\nFrau: Haben Sie den Kassenbon noch?\nMann: Ja, hier bitte.\nFrau: Kein Problem. Welche Größe brauchen Sie?\nMann: Eine Nummer größer, also L bitte.",
+          "questions": [{ "prompt": "Der Mann möchte sein Geld zurück.", "correct": false }]
+        },
+        {
+          "transcript": "Frau: Sag mal, hast du schon gehört? Der Kurs von Frau Schmidt fällt nächste Woche aus.\nMann: Wirklich? Warum denn?\nFrau: Sie ist krank geworden. Aber in zwei Wochen geht es normal weiter.\nMann: Na gut, dann habe ich nächste Woche mehr Zeit zum Lernen.",
+          "questions": [{ "prompt": "Der Kurs findet nächste Woche statt.", "correct": false }]
+        },
+        {
+          "transcript": "Mann: Wie war dein Urlaub in Spanien?\nFrau: Super! Das Wetter war perfekt, 30 Grad jeden Tag. Und das Hotel war direkt am Strand.\nMann: Toll! Und das Essen?\nFrau: Fantastisch! Ich habe jeden Abend frischen Fisch gegessen.",
+          "questions": [{ "prompt": "Die Frau war mit ihrem Urlaub zufrieden.", "correct": true }]
+        }
+      ]
+    },
+    "part2": {
+      "type": "true-false",
+      "dialogues": [
+        {
+          "transcript": "Moderator: Willkommen bei Radio Aktuell. Heute sprechen wir mit Frau Dr. Berger über gesunde Ernährung. Frau Dr. Berger, viele Menschen möchten sich gesünder ernähren. Was empfehlen Sie?\n\nDr. Berger: Zunächst einmal ist es wichtig, regelmäßig zu essen. Drei Hauptmahlzeiten am Tag sind ideal. Viele Leute lassen das Frühstück aus, aber das ist ein Fehler. Der Körper braucht morgens Energie.\n\nModerator: Was sollte man zum Frühstück essen?\n\nDr. Berger: Am besten Vollkornbrot mit Käse oder Müsli mit Obst. Man sollte nicht zu viel Zucker essen, besonders nicht am Morgen. Und ganz wichtig: viel trinken! Mindestens zwei Liter Wasser am Tag.\n\nModerator: Und was ist mit Fleisch?\n\nDr. Berger: Fleisch ist in Ordnung, aber nicht jeden Tag. Zwei- bis dreimal pro Woche reicht. Und man sollte mehr Gemüse essen. Die Hälfte von jedem Teller sollte Gemüse sein.\n\nModerator: Was halten Sie von Diäten?\n\nDr. Berger: Die meisten Diäten funktionieren nicht langfristig. Besser ist es, die Ernährung langsam umzustellen. Kleine Veränderungen sind nachhaltiger als radikale Diäten. Und Bewegung gehört natürlich auch dazu — mindestens 30 Minuten am Tag.\n\nModerator: Vielen Dank, Frau Dr. Berger!",
+          "questions": [
+            { "prompt": "Dr. Berger empfiehlt, fünf Mahlzeiten am Tag zu essen.", "correct": false },
+            { "prompt": "Man sollte das Frühstück nicht auslassen.", "correct": true },
+            { "prompt": "Zum Frühstück empfiehlt Dr. Berger Vollkornbrot oder Müsli.", "correct": true },
+            { "prompt": "Man sollte mindestens drei Liter Wasser am Tag trinken.", "correct": false },
+            { "prompt": "Fleisch sollte man jeden Tag essen.", "correct": false },
+            { "prompt": "Die Hälfte des Tellers sollte Gemüse sein.", "correct": true },
+            { "prompt": "Dr. Berger findet Diäten sehr gut.", "correct": false },
+            { "prompt": "Kleine Veränderungen in der Ernährung sind besser als Diäten.", "correct": true },
+            { "prompt": "Man sollte täglich mindestens 30 Minuten Sport machen.", "correct": true },
+            { "prompt": "Dr. Berger sagt, Bewegung ist nicht so wichtig.", "correct": false }
+          ]
+        }
+      ]
+    },
+    "part3": {
+      "type": "matching",
+      "instructions": "Sie hören fünf kurze Nachrichten. Welche Nachricht passt zu welcher Situation?",
+      "items": [
+        { "id": "1", "text": "Guten Tag, hier ist die Arztpraxis Dr. Klein. Ihr Termin am Montag um 10 Uhr muss leider verschoben werden. Können Sie stattdessen am Dienstag um 14 Uhr kommen? Bitte rufen Sie uns zurück." },
+        { "id": "2", "text": "Hallo Mama, ich bin es, Lisa. Ich komme heute etwas später nach Hause, weil ich noch mit einer Freundin lerne. Wir schreiben morgen einen Test in Mathe. Bis heute Abend!" },
+        { "id": "3", "text": "Sehr geehrte Fahrgäste, der Zug nach Hamburg hat heute leider 20 Minuten Verspätung. Wir bitten um Ihr Verständnis. Der Zug fährt voraussichtlich um 15:40 Uhr ab." },
+        { "id": "4", "text": "Hallo Thomas, hier ist Mark. Ich wollte fragen, ob du am Samstag Lust hast, Fußball zu spielen. Wir treffen uns um 15 Uhr im Stadtpark. Ruf mich an, wenn du kommst!" },
+        { "id": "5", "text": "Guten Tag, Frau Weber. Hier ist die Bibliothek. Die Bücher, die Sie bestellt haben, sind angekommen. Sie können sie ab morgen abholen. Unsere Öffnungszeiten sind Montag bis Freitag, 9 bis 18 Uhr." }
+      ],
+      "options": [
+        { "id": "a", "text": "Eine Einladung zum Sport" },
+        { "id": "b", "text": "Information über eine Verspätung" },
+        { "id": "c", "text": "Eine Terminänderung" },
+        { "id": "d", "text": "Eine Nachricht von einem Kind" },
+        { "id": "e", "text": "Bücher sind abholbereit" },
+        { "id": "f", "text": "Einladung zu einer Party" },
+        { "id": "g", "text": "Information über einen Kurs" }
+      ],
+      "correctMatches": { "1": "c", "2": "d", "3": "b", "4": "a", "5": "e" }
+    }
+  },
+  "writing": {
+    "task": {
+      "prompt": "Sie haben eine Anzeige für einen Deutschkurs an einer Sprachschule gelesen. Schreiben Sie einen Brief an die Sprachschule.",
+      "situation": "Sie haben in der Zeitung eine Anzeige gelesen: Die Sprachschule \"Lingua\" bietet Deutschkurse für alle Niveaus an. Sie möchten sich für einen Kurs anmelden.",
+      "contentPoints": [
+        "Warum Sie Deutsch lernen möchten",
+        "Welches Niveau Sie haben",
+        "Wann Sie Zeit für den Kurs haben",
+        "Fragen Sie nach dem Preis und den Materialien"
+      ],
+      "modelAnswer": "Sehr geehrte Damen und Herren,\n\nich habe Ihre Anzeige für Deutschkurse in der Zeitung gelesen und interessiere mich sehr dafür. Ich lerne Deutsch, weil ich in Deutschland arbeiten möchte und gute Deutschkenntnisse für meinen Beruf brauche.\n\nIch habe schon einen A2-Kurs besucht und möchte jetzt einen B1-Kurs machen. Ich kann abends ab 18 Uhr und am Wochenende am Kurs teilnehmen, weil ich tagsüber arbeite.\n\nKönnten Sie mir bitte sagen, wie viel der Kurs kostet? Und muss ich die Bücher selbst kaufen oder sind sie im Preis enthalten?\n\nIch freue mich auf Ihre Antwort.\n\nMit freundlichen Grüßen\nAnna Müller"
+    }
+  },
+  "speaking": {
+    "part1": {
+      "instructions": "Stellen Sie sich Ihrem Partner / Ihrer Partnerin vor. Sprechen Sie über die folgenden Punkte:",
+      "prompts": [
+        "Name",
+        "Woher kommen Sie?",
+        "Wo wohnen Sie jetzt?",
+        "Was machen Sie beruflich? / Was studieren Sie?",
+        "Welche Sprachen sprechen Sie?",
+        "Was sind Ihre Hobbys?"
+      ],
+      "modelAnswer": "Hallo, ich heiße Maria und komme aus Spanien, aus einer kleinen Stadt in der Nähe von Madrid. Jetzt wohne ich seit zwei Jahren in Berlin. Ich arbeite als Grafikdesignerin in einer kleinen Agentur. Ich spreche Spanisch als Muttersprache und außerdem Englisch und ein bisschen Deutsch — deshalb bin ich hier! In meiner Freizeit gehe ich gern ins Kino und mache Yoga. Ich lese auch gern Romane.",
+      "checklist": [
+        "Habe ich meinen Namen gesagt?",
+        "Habe ich über meine Herkunft gesprochen?",
+        "Habe ich meinen Wohnort erwähnt?",
+        "Habe ich über meinen Beruf/mein Studium gesprochen?",
+        "Habe ich meine Sprachkenntnisse genannt?",
+        "Habe ich über meine Hobbys gesprochen?"
+      ]
+    },
+    "part2": {
+      "instructions": "Sprechen Sie mit Ihrem Partner / Ihrer Partnerin über das Thema \"Gesunde Ernährung\". Tauschen Sie Ihre Meinungen und Erfahrungen aus.",
+      "prompts": [
+        "Achten Sie auf gesunde Ernährung? Warum / warum nicht?",
+        "Was essen Sie normalerweise zum Frühstück/Mittag/Abend?",
+        "Kochen Sie selbst oder essen Sie oft auswärts?",
+        "Gibt es Lebensmittel, die Sie nicht essen?",
+        "Was denken Sie: Was ist das Wichtigste für eine gesunde Ernährung?"
+      ],
+      "modelAnswer": "Ja, ich achte ziemlich auf gesunde Ernährung, weil ich mich dann besser fühle. Zum Frühstück esse ich meistens Müsli mit Obst und trinke einen Kaffee. Mittags esse ich oft in der Kantine bei der Arbeit — da gibt es immer auch Salat. Abends koche ich gern selbst, zum Beispiel Gemüse mit Reis oder Pasta.\n\nIch esse kein Fleisch, weil ich Vegetarierin bin. Aber ich esse Fisch und Milchprodukte. Ich denke, das Wichtigste ist, viel Gemüse und Obst zu essen und nicht zu viel Zucker. Und natürlich genug Wasser trinken!",
+      "checklist": [
+        "Habe ich meine Meinung zum Thema gesagt?",
+        "Habe ich über meine Essgewohnheiten gesprochen?",
+        "Habe ich Beispiele gegeben?",
+        "Habe ich auf Fragen des Partners reagiert?",
+        "Habe ich zusammenhängend gesprochen?"
+      ]
+    },
+    "part3": {
+      "instructions": "Sie und Ihr Partner / Ihre Partnerin möchten zusammen einen Ausflug am Wochenende machen. Planen Sie den Ausflug gemeinsam.",
+      "prompts": [
+        "Wohin möchten Sie fahren?",
+        "Wann möchten Sie losfahren?",
+        "Wie kommen Sie dorthin (Auto, Zug, Bus)?",
+        "Was möchten Sie dort machen?",
+        "Was müssen Sie mitnehmen?"
+      ],
+      "modelAnswer": "Ich schlage vor, dass wir an den Wannsee fahren. Da können wir spazieren gehen und vielleicht ein Picknick machen. Wollen wir am Samstagmorgen fahren? Sagen wir um 10 Uhr?\n\nWir können mit der S-Bahn fahren, das ist am einfachsten und dauert nur 30 Minuten. Am See können wir spazieren gehen, und wenn das Wetter gut ist, können wir auch schwimmen gehen.\n\nWir sollten Essen und Getränke mitnehmen für das Picknick. Und Badesachen, falls wir schwimmen wollen. Ich bringe eine Decke mit. Kannst du die Getränke mitbringen?",
+      "checklist": [
+        "Haben wir ein Ziel vereinbart?",
+        "Haben wir eine Uhrzeit ausgemacht?",
+        "Haben wir das Verkehrsmittel besprochen?",
+        "Haben wir Aktivitäten geplant?",
+        "Haben wir besprochen, was wir mitnehmen?"
+      ]
+    }
+  }
+}

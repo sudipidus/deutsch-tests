@@ -1,0 +1,291 @@
+{
+  "id": "test-02",
+  "title": "Übungstest 2",
+  "level": "B1",
+  "reading": {
+    "part1": {
+      "type": "matching",
+      "instructions": "Lesen Sie die Überschriften (a-j) und die Texte (1-5). Welche Überschrift passt zu welchem Text?",
+      "items": [
+        { "id": "1", "text": "Die Firma Meier & Söhne sucht ab sofort eine Bürokraft in Teilzeit. Sie arbeiten von 9 bis 13 Uhr und erledigen Telefonate, E-Mails und die Post. Gute Deutschkenntnisse sind Voraussetzung." },
+        { "id": "2", "text": "Das neue Coworking-Space in der Friedrichstraße bietet Schreibtische ab 200 Euro im Monat. Internet, Kaffee und ein Meetingraum sind inklusive. Ideal für Freiberufler und kleine Teams." },
+        { "id": "3", "text": "Ab Januar gelten neue Regeln für Homeoffice: Arbeitnehmer haben das Recht, mindestens zwei Tage pro Woche von zu Hause zu arbeiten. Der Arbeitgeber muss die technische Ausstattung stellen." },
+        { "id": "4", "text": "Die Handwerkskammer bietet kostenlose Beratung für alle, die sich selbstständig machen möchten. Jeden Dienstag von 14 bis 17 Uhr können Sie ohne Termin vorbeikommen." },
+        { "id": "5", "text": "Eine Studie zeigt: 65 Prozent der Deutschen sind mit ihrem Job zufrieden. Am wichtigsten sind ihnen nette Kollegen, ein gutes Gehalt und flexible Arbeitszeiten." }
+      ],
+      "options": [
+        { "id": "a", "text": "Neue Regeln für das Arbeiten zu Hause" },
+        { "id": "b", "text": "Hilfe für zukünftige Unternehmer" },
+        { "id": "c", "text": "Halbtags im Büro arbeiten" },
+        { "id": "d", "text": "Was Arbeitnehmer glücklich macht" },
+        { "id": "e", "text": "Gemeinsam arbeiten in modernen Räumen" },
+        { "id": "f", "text": "Weiterbildung am Arbeitsplatz" },
+        { "id": "g", "text": "Praktikum im Ausland" },
+        { "id": "h", "text": "Mehr Urlaub für Eltern" },
+        { "id": "i", "text": "Neue Jobs in der IT-Branche" },
+        { "id": "j", "text": "Tipps für das Vorstellungsgespräch" }
+      ],
+      "correctMatches": { "1": "c", "2": "e", "3": "a", "4": "b", "5": "d" }
+    },
+    "part2": {
+      "type": "multiple-choice",
+      "text": "Stefan arbeitet seit fünf Jahren als Softwareentwickler in einer großen Firma in Frankfurt. Er verdient gut, aber in den letzten Monaten fühlt er sich oft müde und gestresst. Sein Chef erwartet, dass er auch am Wochenende E-Mails beantwortet, und Überstunden sind normal.\n\nStefans Freundin hat ihm geraten, mit seinem Chef über die Situation zu sprechen. Das hat Stefan gemacht, und sein Chef hat ihm angeboten, einen Tag pro Woche im Homeoffice zu arbeiten. Seitdem geht es Stefan etwas besser, weil er an diesem Tag keine Zeit für den Weg zur Arbeit braucht.\n\nTrotzdem denkt Stefan manchmal darüber nach, die Firma zu wechseln. Ein Freund hat ihm erzählt, dass es in kleineren Firmen oft eine bessere Work-Life-Balance gibt. Stefan hat sich schon bei zwei Firmen beworben, aber noch keine Antwort bekommen. Er will noch drei Monate warten und dann eine Entscheidung treffen.",
+      "questions": [
+        {
+          "prompt": "Warum ist Stefan in letzter Zeit gestresst?",
+          "options": [
+            { "key": "a", "text": "Er verdient zu wenig Geld." },
+            { "key": "b", "text": "Er muss zu viel arbeiten, auch am Wochenende." },
+            { "key": "c", "text": "Er hat Probleme mit seinen Kollegen." }
+          ],
+          "correct": "b"
+        },
+        {
+          "prompt": "Wer hat Stefan empfohlen, mit dem Chef zu reden?",
+          "options": [
+            { "key": "a", "text": "Ein Kollege." },
+            { "key": "b", "text": "Sein Arzt." },
+            { "key": "c", "text": "Seine Freundin." }
+          ],
+          "correct": "c"
+        },
+        {
+          "prompt": "Was hat Stefans Chef ihm angeboten?",
+          "options": [
+            { "key": "a", "text": "Mehr Gehalt." },
+            { "key": "b", "text": "Einen Tag Homeoffice pro Woche." },
+            { "key": "c", "text": "Weniger Projekte." }
+          ],
+          "correct": "b"
+        },
+        {
+          "prompt": "Was hat Stefans Freund über kleinere Firmen gesagt?",
+          "options": [
+            { "key": "a", "text": "Man verdient dort mehr." },
+            { "key": "b", "text": "Die Arbeit ist interessanter." },
+            { "key": "c", "text": "Die Work-Life-Balance ist oft besser." }
+          ],
+          "correct": "c"
+        },
+        {
+          "prompt": "Was plant Stefan für die nächsten Monate?",
+          "options": [
+            { "key": "a", "text": "Er will sofort kündigen." },
+            { "key": "b", "text": "Er will noch drei Monate warten und dann entscheiden." },
+            { "key": "c", "text": "Er will mit seinem Chef noch einmal sprechen." }
+          ],
+          "correct": "b"
+        }
+      ]
+    },
+    "part3": {
+      "type": "matching",
+      "instructions": "Lesen Sie die Situationen (1-10) und die Anzeigen (a-l). Welche Anzeige passt zu welcher Situation?",
+      "items": [
+        { "id": "1", "text": "Sie möchten einen Computerkurs am Abend besuchen." },
+        { "id": "2", "text": "Sie suchen einen Minijob am Wochenende." },
+        { "id": "3", "text": "Ihr Kind braucht Nachhilfe in Englisch." },
+        { "id": "4", "text": "Sie möchten gebrauchte Büromöbel kaufen." },
+        { "id": "5", "text": "Sie brauchen einen Babysitter für Samstagabend." },
+        { "id": "6", "text": "Sie möchten sich beruflich verändern und suchen Beratung." },
+        { "id": "7", "text": "Sie suchen einen Handwerker für Ihre Küche." },
+        { "id": "8", "text": "Sie möchten einen Erste-Hilfe-Kurs machen." },
+        { "id": "9", "text": "Sie wollen Ihre alten Klamotten verkaufen." },
+        { "id": "10", "text": "Sie suchen einen Tanzkurs für Paare." }
+      ],
+      "options": [
+        { "id": "a", "text": "VHS Abendkurse — Excel, Word und Internet. Dienstags 18-20 Uhr. 10 Wochen, 80 Euro. Anmeldung online." },
+        { "id": "b", "text": "Aushilfe gesucht — Bäckerei Krause sucht Verkäufer/in für Samstag und Sonntag. 12 Euro/Stunde." },
+        { "id": "c", "text": "Englisch-Nachhilfe — Muttersprachlerin gibt Unterricht für Kinder (8-14 Jahre). Einzelstunden 20 Euro." },
+        { "id": "d", "text": "Büroauflösung — Schreibtische, Stühle, Regale günstig abzugeben. Selbstabholung. Tel: 040-5554433." },
+        { "id": "e", "text": "Babysitting — Studentin (22) passt gerne auf Ihre Kinder auf. Abends und am Wochenende. Erfahrung vorhanden." },
+        { "id": "f", "text": "Karriereberatung — Kostenlose Erstberatung. Wir helfen bei Bewerbung, Lebenslauf und Jobsuche. Termin vereinbaren!" },
+        { "id": "g", "text": "Küchenmontage — Professioneller Aufbau Ihrer Küche. Schnell und zuverlässig. Festpreis ab 250 Euro." },
+        { "id": "h", "text": "Erste-Hilfe-Kurs — Jeden Samstag, 9-17 Uhr. Auch für Führerschein gültig. 35 Euro. Plätze frei!" },
+        { "id": "i", "text": "Second-Hand-Laden — Wir kaufen Ihre gebrauchte Kleidung! Faire Preise. Mo-Fr 10-18 Uhr." },
+        { "id": "j", "text": "Tanzschule Rhythmus — Salsa, Walzer, Tango. Anfängerkurse für Paare. Mittwochs 19:30 Uhr. Probestunde gratis!" },
+        { "id": "k", "text": "Fahrradverleih — E-Bikes und Stadträder. Ab 10 Euro/Tag. Helm inklusive." },
+        { "id": "l", "text": "Steuerberatung — Wir machen Ihre Steuererklärung. Günstige Pauschale für Arbeitnehmer." }
+      ],
+      "correctMatches": { "1": "a", "2": "b", "3": "c", "4": "d", "5": "e", "6": "f", "7": "g", "8": "h", "9": "i", "10": "j" }
+    }
+  },
+  "sprachbausteine": {
+    "part1": {
+      "type": "cloze-mc",
+      "text": "Sehr geehrte Damen und Herren,\n\nich möchte gern {{1}} Zimmer in Ihrem Hotel buchen. Wir sind zwei Personen und {{2}} vom 15. bis zum 22. Juli bleiben. Könnten Sie mir bitte {{3}}, ob Sie in dieser Zeit noch ein Doppelzimmer frei haben?\n\nWir hätten gern ein Zimmer {{4}} Frühstück. Gibt es bei Ihnen auch {{5}} Möglichkeit, Halbpension zu buchen? Außerdem würde ich gern {{6}}, ob das Hotel einen Parkplatz hat, {{7}} wir mit dem Auto kommen.\n\nKönnten Sie mir {{8}} den Preis pro Nacht mitteilen? Wir möchten {{9}} mehr als 100 Euro pro Nacht ausgeben. Ich würde mich über eine {{10}} Antwort freuen.\n\nMit freundlichen Grüßen\nKlaus und Petra Hoffmann",
+      "blanks": [
+        { "id": "1", "options": ["ein", "eines", "einem"], "correct": "ein" },
+        { "id": "2", "options": ["möchten", "müssen", "sollen"], "correct": "möchten" },
+        { "id": "3", "options": ["fragen", "sagen", "sprechen"], "correct": "sagen" },
+        { "id": "4", "options": ["mit", "für", "ohne"], "correct": "mit" },
+        { "id": "5", "options": ["die", "eine", "keine"], "correct": "die" },
+        { "id": "6", "options": ["kennen", "wissen", "können"], "correct": "wissen" },
+        { "id": "7", "options": ["weil", "obwohl", "damit"], "correct": "weil" },
+        { "id": "8", "options": ["auch", "noch", "schon"], "correct": "auch" },
+        { "id": "9", "options": ["höchstens", "mindestens", "wenigstens"], "correct": "höchstens" },
+        { "id": "10", "options": ["schnelle", "langsame", "kurze"], "correct": "schnelle" }
+      ]
+    },
+    "part2": {
+      "type": "cloze-wordbank",
+      "text": "Lieber Marco,\n\nvielen Dank für deine Einladung! Ich {{1}} sehr gern zu deiner Party kommen. Leider kann ich nicht am Samstag, {{2}} ich an dem Tag arbeiten muss. Kannst du mir {{3}}, wann die Party ungefähr {{4}} ist?\n\nIch würde dir gern etwas {{5}}. Hast du einen besonderen Wunsch? Letztes Jahr habe ich dir ein Buch {{6}}, vielleicht möchtest du dieses Jahr {{7}} anderes?\n\nÜbrigens habe ich letzte Woche meinen {{8}} bekommen. Ich fahre jetzt jeden Tag mit dem Auto zur {{9}}. Das ist viel schneller als mit dem Bus.\n\nIch freue mich {{10}} dich!\n\nDein Stefan",
+      "wordbank": [
+        "würde", "weil", "sagen", "vorbei", "schenken",
+        "geschenkt", "etwas", "Führerschein", "Arbeit", "auf",
+        "könnte", "dass", "fragen", "fertig", "mitbringen"
+      ],
+      "correctFills": {
+        "1": "würde",
+        "2": "weil",
+        "3": "sagen",
+        "4": "vorbei",
+        "5": "schenken",
+        "6": "geschenkt",
+        "7": "etwas",
+        "8": "Führerschein",
+        "9": "Arbeit",
+        "10": "auf"
+      }
+    }
+  },
+  "listening": {
+    "part1": {
+      "type": "true-false",
+      "dialogues": [
+        {
+          "transcript": "Frau: Guten Tag, ich hätte gern einen Termin bei Dr. Müller.\nMann: Dr. Müller hat diese Woche leider keinen Termin mehr frei. Soll ich Ihnen einen Termin nächste Woche geben?\nFrau: Ja, bitte. Am Montag wäre gut.\nMann: Montag um 9 Uhr passt. Bringen Sie bitte Ihre Versichertenkarte mit.",
+          "questions": [{ "prompt": "Die Frau bekommt diese Woche noch einen Termin.", "correct": false }]
+        },
+        {
+          "transcript": "Mann: Frau Doktor, ich habe seit drei Tagen starke Kopfschmerzen.\nFrau: Haben Sie auch Fieber?\nMann: Nein, aber ich schlafe sehr schlecht in letzter Zeit.\nFrau: Ich verschreibe Ihnen Tabletten. Nehmen Sie dreimal täglich eine nach dem Essen.",
+          "questions": [{ "prompt": "Der Mann hat Fieber und Kopfschmerzen.", "correct": false }]
+        },
+        {
+          "transcript": "Frau: Ich war gestern beim Zahnarzt. Er hat gesagt, dass alles in Ordnung ist.\nMann: Das ist gut! Ich muss auch mal wieder hingehen. Mein letzter Termin war vor über einem Jahr.\nFrau: Du solltest nicht so lange warten. Einmal im Jahr ist das Minimum.",
+          "questions": [{ "prompt": "Die Frau hatte Probleme beim Zahnarzt.", "correct": false }]
+        },
+        {
+          "transcript": "Mann: Entschuldigung, können Sie mir sagen, wo die Apotheke ist?\nFrau: Ja, gehen Sie die Straße entlang bis zur Ampel und dann rechts. Die Apotheke ist neben der Bäckerei.\nMann: Ist sie heute geöffnet? Es ist Sonntag.\nFrau: Ja, das ist die Notapotheke. Die hat auch sonntags auf.",
+          "questions": [{ "prompt": "Die Apotheke ist am Sonntag geschlossen.", "correct": false }]
+        },
+        {
+          "transcript": "Frau: Wie geht es deiner Mutter? Ich habe gehört, sie war im Krankenhaus.\nMann: Ja, sie hatte eine kleine Operation am Knie. Aber jetzt ist sie wieder zu Hause und es geht ihr viel besser.\nFrau: Das freut mich! Grüß sie von mir.",
+          "questions": [{ "prompt": "Die Mutter ist noch im Krankenhaus.", "correct": false }]
+        }
+      ]
+    },
+    "part2": {
+      "type": "true-false",
+      "dialogues": [
+        {
+          "transcript": "Moderator: Heute in unserer Sendung: Stress am Arbeitsplatz. Bei uns ist der Arbeitspsychologe Herr Dr. Vogel. Herr Dr. Vogel, warum sind so viele Menschen im Job gestresst?\n\nDr. Vogel: Es gibt viele Gründe. Der häufigste ist zu viel Arbeit in zu wenig Zeit. Viele Arbeitnehmer machen regelmäßig Überstunden, weil sie ihre Aufgaben nicht in der normalen Arbeitszeit schaffen.\n\nModerator: Was kann man dagegen tun?\n\nDr. Vogel: Zunächst ist es wichtig, mit dem Chef zu sprechen. Viele Chefs wissen gar nicht, wie viel ihre Mitarbeiter wirklich arbeiten. Außerdem sollte man lernen, auch mal Nein zu sagen, wenn man schon zu viele Aufgaben hat.\n\nModerator: Und was kann man im Alltag tun?\n\nDr. Vogel: Pausen sind sehr wichtig. Man sollte mindestens einmal pro Stunde kurz aufstehen und sich bewegen. Auch die Mittagspause sollte man nicht am Schreibtisch verbringen. Am besten geht man kurz an die frische Luft.\n\nModerator: Hilft Sport gegen Stress?\n\nDr. Vogel: Auf jeden Fall! Sport ist eines der besten Mittel gegen Stress. Aber es muss nicht immer Sport sein — auch Spaziergänge, Musik hören oder Zeit mit Freunden verbringen kann helfen. Wichtig ist, dass man nach der Arbeit wirklich abschaltet und nicht noch E-Mails liest.\n\nModerator: Vielen Dank für Ihre Tipps!",
+          "questions": [
+            { "prompt": "Der häufigste Grund für Stress ist Streit mit Kollegen.", "correct": false },
+            { "prompt": "Viele Arbeitnehmer machen regelmäßig Überstunden.", "correct": true },
+            { "prompt": "Dr. Vogel empfiehlt, mit dem Chef über die Situation zu sprechen.", "correct": true },
+            { "prompt": "Man sollte immer Ja sagen, wenn der Chef neue Aufgaben gibt.", "correct": false },
+            { "prompt": "Man sollte mindestens einmal pro Stunde eine kurze Pause machen.", "correct": true },
+            { "prompt": "Die Mittagspause am Schreibtisch ist ideal.", "correct": false },
+            { "prompt": "Sport hilft gegen Stress.", "correct": true },
+            { "prompt": "Nur intensiver Sport kann gegen Stress helfen.", "correct": false },
+            { "prompt": "Nach der Arbeit sollte man keine E-Mails mehr lesen.", "correct": true },
+            { "prompt": "Dr. Vogel sagt, Stress am Arbeitsplatz ist nicht schlimm.", "correct": false }
+          ]
+        }
+      ]
+    },
+    "part3": {
+      "type": "matching",
+      "instructions": "Sie hören fünf kurze Nachrichten. Welche Nachricht passt zu welcher Situation?",
+      "items": [
+        { "id": "1", "text": "Guten Tag, hier ist die Praxis von Dr. Engel. Wir möchten Sie daran erinnern, dass Sie morgen um 8:30 Uhr einen Termin zur Blutabnahme haben. Bitte kommen Sie nüchtern, also ohne Frühstück." },
+        { "id": "2", "text": "Hallo Sabine, hier ist Jan. Ich bin leider krank geworden und kann heute nicht zur Arbeit kommen. Kannst du bitte dem Chef Bescheid sagen? Ich rufe morgen nochmal an." },
+        { "id": "3", "text": "Sehr geehrte Kunden, unsere Filiale in der Hauptstraße ist wegen Renovierung vom 1. bis 15. März geschlossen. Besuchen Sie uns in dieser Zeit in unserer Filiale am Marktplatz." },
+        { "id": "4", "text": "Hallo Frau Klein, Ihr Rezept ist fertig. Sie können die Medikamente ab heute Nachmittag abholen. Bitte bringen Sie Ihre Gesundheitskarte mit. Wir haben bis 18:30 Uhr geöffnet." },
+        { "id": "5", "text": "Liebe Mitglieder, das Fitnessstudio ist in der Weihnachtszeit vom 24. bis 26. Dezember geschlossen. Ab dem 27. gelten wieder die normalen Öffnungszeiten." }
+      ],
+      "options": [
+        { "id": "a", "text": "Krankmeldung bei der Arbeit" },
+        { "id": "b", "text": "Erinnerung an einen Arzttermin" },
+        { "id": "c", "text": "Medikamente sind bereit" },
+        { "id": "d", "text": "Geschäft vorübergehend geschlossen" },
+        { "id": "e", "text": "Geänderte Öffnungszeiten im Fitnessstudio" },
+        { "id": "f", "text": "Einladung zur Weihnachtsfeier" },
+        { "id": "g", "text": "Neue Öffnungszeiten der Bibliothek" }
+      ],
+      "correctMatches": { "1": "b", "2": "a", "3": "d", "4": "c", "5": "e" }
+    }
+  },
+  "writing": {
+    "task": {
+      "prompt": "Sie haben im Internet ein Produkt bestellt, aber es ist beschädigt angekommen. Schreiben Sie eine Beschwerde an den Online-Shop.",
+      "situation": "Sie haben vor zwei Wochen bei dem Online-Shop \"TechMarkt\" einen Laptop bestellt. Gestern ist das Paket angekommen, aber der Bildschirm hat einen Riss und der Laptop funktioniert nicht richtig.",
+      "contentPoints": [
+        "Beschreiben Sie das Problem genau",
+        "Wann haben Sie bestellt und wann ist das Paket angekommen",
+        "Was erwarten Sie vom Shop (Umtausch, Reparatur oder Geld zurück)",
+        "Setzen Sie eine Frist für die Antwort"
+      ],
+      "modelAnswer": "Sehr geehrte Damen und Herren,\n\nam 28. Mai habe ich bei Ihnen einen Laptop (Bestellnummer 456789) bestellt. Das Paket ist gestern, am 10. Juni, bei mir angekommen. Leider muss ich mich beschweren, weil der Laptop beschädigt ist.\n\nDer Bildschirm hat einen großen Riss und der Laptop lässt sich nicht richtig starten. Ich vermute, dass das Paket beim Transport beschädigt wurde, denn der Karton hatte auch eine Delle.\n\nIch möchte Sie bitten, mir einen neuen Laptop zu schicken oder mir den vollen Kaufpreis zu erstatten. Den beschädigten Laptop kann ich selbstverständlich zurückschicken.\n\nBitte antworten Sie mir bis zum 20. Juni. Wenn ich bis dahin keine Antwort bekomme, werde ich mich an die Verbraucherzentrale wenden.\n\nMit freundlichen Grüßen\nMarkus Bauer"
+    }
+  },
+  "speaking": {
+    "part1": {
+      "instructions": "Stellen Sie sich Ihrem Partner / Ihrer Partnerin vor. Sprechen Sie über die folgenden Punkte:",
+      "prompts": [
+        "Name",
+        "Woher kommen Sie?",
+        "Wo wohnen Sie jetzt?",
+        "Was machen Sie beruflich? / Was studieren Sie?",
+        "Welche Sprachen sprechen Sie?",
+        "Was sind Ihre Hobbys?"
+      ],
+      "modelAnswer": "Guten Tag, mein Name ist Ahmed und ich komme aus der Türkei, aus Istanbul. Seit einem Jahr lebe ich in München. Ich arbeite als Elektriker bei einer Baufirma. Ich spreche Türkisch, etwas Englisch und lerne gerade Deutsch. Mein Deutsch ist schon ganz gut, aber ich möchte noch besser werden. In meiner Freizeit spiele ich gern Fußball und koche für meine Familie. Außerdem gehe ich gern wandern in den Bergen.",
+      "checklist": [
+        "Habe ich meinen Namen gesagt?",
+        "Habe ich über meine Herkunft gesprochen?",
+        "Habe ich meinen Wohnort erwähnt?",
+        "Habe ich über meinen Beruf/mein Studium gesprochen?",
+        "Habe ich meine Sprachkenntnisse genannt?",
+        "Habe ich über meine Hobbys gesprochen?"
+      ]
+    },
+    "part2": {
+      "instructions": "Sprechen Sie mit Ihrem Partner / Ihrer Partnerin über das Thema \"Reisen\". Tauschen Sie Ihre Meinungen und Erfahrungen aus.",
+      "prompts": [
+        "Reisen Sie gern? Wohin sind Sie zuletzt gereist?",
+        "Reisen Sie lieber mit dem Flugzeug, dem Zug oder dem Auto?",
+        "Machen Sie lieber Strandurlaub oder Städtereisen?",
+        "Buchen Sie Reisen im Internet oder im Reisebüro?",
+        "Was ist Ihr Traumreiseziel?"
+      ],
+      "modelAnswer": "Ja, ich reise sehr gern! Letzten Sommer war ich in Kroatien am Meer. Das war wirklich wunderschön. Ich reise am liebsten mit dem Zug, weil das bequemer ist als Autofahren und umweltfreundlicher als Fliegen.\n\nIch mag beides — Strandurlaub und Städtereisen. Im Sommer gehe ich gern ans Meer, aber im Winter mache ich lieber eine Städtereise, zum Beispiel nach Rom oder Barcelona. Meine Reisen buche ich meistens im Internet, weil man dort die Preise gut vergleichen kann.\n\nMein Traumreiseziel ist Japan. Ich interessiere mich sehr für die japanische Kultur und das Essen. Eines Tages möchte ich unbedingt nach Tokio reisen!",
+      "checklist": [
+        "Habe ich über meine Reiseerfahrungen gesprochen?",
+        "Habe ich mein bevorzugtes Verkehrsmittel genannt?",
+        "Habe ich meine Vorlieben erklärt?",
+        "Habe ich über mein Buchungsverhalten gesprochen?",
+        "Habe ich über mein Traumreiseziel gesprochen?"
+      ]
+    },
+    "part3": {
+      "instructions": "Sie und Ihr Partner / Ihre Partnerin organisieren gemeinsam eine Firmenfeier. Planen Sie die Feier zusammen.",
+      "prompts": [
+        "Wann und wo soll die Feier stattfinden?",
+        "Wie viele Personen kommen?",
+        "Was soll es zu essen und zu trinken geben?",
+        "Soll es ein Programm oder Musik geben?",
+        "Wer macht was? Wie teilen Sie die Aufgaben?"
+      ],
+      "modelAnswer": "Ich denke, wir könnten die Feier am Freitagabend machen, dann müssen die Leute am nächsten Tag nicht arbeiten. Wie wäre es im Restaurant am Marktplatz? Da gibt es einen großen Raum für Gruppen.\n\nWir sind ungefähr 25 Personen in der Abteilung. Ich schlage vor, dass wir ein Buffet bestellen — dann ist für jeden etwas dabei. Dazu Getränke, Wasser, Saft und vielleicht auch Wein und Bier.\n\nWir könnten einen DJ organisieren oder einfach eine Playlist machen. Was meinst du? Ich könnte mich um die Musik kümmern und du fragst im Restaurant nach einem Angebot für das Buffet. Den Chef fragen wir, ob die Firma etwas dazu bezahlt.",
+      "checklist": [
+        "Haben wir Ort und Zeit festgelegt?",
+        "Haben wir die Personenzahl besprochen?",
+        "Haben wir Essen und Trinken geplant?",
+        "Haben wir über das Programm gesprochen?",
+        "Haben wir die Aufgaben verteilt?"
+      ]
+    }
+  }
+}
