@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { getTestById, getAllTestIds } from "@/lib/tests";
 import { notFound } from "next/navigation";
 import { ReviewClient } from "./ReviewClient";
@@ -21,5 +22,9 @@ export default async function ReviewPage({ params }: Props) {
     notFound();
   }
 
-  return <ReviewClient test={test} testId={id} />;
+  return (
+    <Suspense fallback={<p className="text-gray-600 dark:text-gray-400">Loading results...</p>}>
+      <ReviewClient test={test} testId={id} />
+    </Suspense>
+  );
 }
