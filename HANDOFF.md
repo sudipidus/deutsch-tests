@@ -1,13 +1,13 @@
-# Handoff: Task 9 - Test Overview Page
+# Handoff: Task 13 - Exercise View Page
 
-**Current Status**: 8/16 tasks complete. Context limited at 24%. Continuing in fresh session recommended.
+**Current Status**: 12/16 tasks complete. 4 new tasks completed in this session!
 
 ## Quick Context
 - Project: telc Deutsch B1 practice app (German language testing)
 - Stack: Next.js, TypeScript, Tailwind, Dexie.js, Jest
-- Latest commit: `feat: add dashboard with test list and recent sessions`
+- Latest commits: Tasks 9-12 completed (test overview, exercises, timer, session/notes)
 
-## What's Built (Tasks 1-8)
+## What's Built (Tasks 1-12) ✅
 ✅ Project scaffolding + TypeScript setup
 ✅ Database schema (Dexie.js)
 ✅ Scoring logic (with tests)
@@ -15,89 +15,103 @@
 ✅ Mock test JSON (3 files: reading, listening, writing)
 ✅ Layout + responsive nav + theme toggle
 ✅ Dashboard page (test list + recent sessions)
+✅ Test overview page (Task 9)
+✅ 7 exercise components (Task 10):
+   - MatchingExercise
+   - MultipleChoiceExercise
+   - TrueFalseExercise
+   - ClozeMCExercise
+   - ClozeWordbankExercise
+   - WritingTask
+   - SpeakingTask
+✅ useTimer hook + TimerDisplay (Task 11)
+✅ useSession, useNotes hooks + SessionPanel (Task 12)
 
 ## Architecture
 ```
 src/
 ├── app/
-│   ├── page.tsx          (Dashboard - done)
-│   ├── test/[id]/        (Exercise view - Task 13)
-│   ├── test/[id]/review/ (Results - Task 14)
-│   ├── sessions/         (Sessions list - Task 15)
-│   └── settings/         (Settings page - Task 15)
+│   ├── page.tsx               (Dashboard - done)
+│   ├── test/[id]/page.tsx     (Test overview - done)
+│   ├── test/[id]/exercise/    (Exercise view - Task 13)
+│   ├── test/[id]/review/      (Results - Task 14)
+│   ├── sessions/              (Sessions list - Task 15)
+│   └── settings/              (Settings page - Task 15)
 ├── components/
-│   ├── exercise/         (7 components - Task 10)
-│   ├── review/           (3 components - Task 14)
-│   └── shared/           (timer, session panel - Tasks 11-12)
+│   ├── exercise/              (7 components - done)
+│   ├── review/                (3 components - Task 14)
+│   └── shared/
+│       ├── TimerDisplay.tsx   (done)
+│       └── SessionPanel.tsx   (done)
 ├── hooks/
-│   ├── useTimer.ts       (Task 11)
-│   ├── useSession.ts     (Task 12)
-│   └── useNotes.ts       (Task 12)
+│   ├── useTimer.ts            (done)
+│   ├── useSession.ts          (done)
+│   ├── useNotes.ts            (done)
+│   └── useSettings.ts         (existing)
 ├── lib/
-│   ├── tts.ts            (Done - German voices)
-│   ├── scoring.ts        (Done - with tests)
-│   ├── types.ts          (Done)
-│   └── constants.ts      (Done)
+│   ├── tts.ts                 (German voices)
+│   ├── scoring.ts             (with tests)
+│   ├── types.ts               (all TypeScript)
+│   ├── constants.ts           (UI strings)
+│   └── tests.ts               (test loader)
 └── db/
-    └── index.ts          (Done - Dexie schema)
+    └── index.ts               (Dexie schema)
 ```
 
-## Next Task: Task 9 - Test Overview Page
+## Next Task: Task 13 - Exercise View Page
 
-**Goal**: Page showing selected test details before starting exercises.
+**Goal**: Main orchestrator page that routes through exercise components, manages answers, and controls flow.
 
-**Location**: `src/app/test/[id]/page.tsx`
+**Location**: `src/app/test/[id]/exercise/page.tsx`
 
-**Features**:
-- Test title, description, section headers
-- Exercise count by section
-- Start button → Exercise view
-- Back to dashboard link
-- Display test metadata (duration, difficulty)
+**Must-Have Features**:
+1. Load test by ID via getTestById()
+2. Initialize session with useSession hook
+3. Map test structure to exercise components dynamically
+4. Track current position (section + part)
+5. Handle answer changes and save to session
+6. Display TimerDisplay component (180 min for full test)
+7. Show SessionPanel for notes (toggleable side panel)
+8. Navigation controls:
+   - "Previous" button (disabled on first)
+   - "Next" button (validates current part, saves answers)
+   - "Submit" button (final submission → review page)
+9. Progress indicator (e.g., "Reading Part 1 of 3")
+10. Link to review page on completion
 
-**Dependencies Ready**:
-- useTestLoader hook ✅
-- types.ts (Test, Section, Exercise) ✅
-- Layout + nav ✅
+**Data Structure to Track**:
+```typescript
+- currentSection: "reading" | "sprachbausteine" | "listening" | "writing" | "speaking"
+- currentPartIndex: 0-2 (most sections have 2-3 parts)
+- sectionOrder: ["reading", "sprachbausteine", "listening", "writing", "speaking"]
+- answers: stored in session.sections[section][part].answers
+```
 
-**No external dependencies** - just a clean info page.
+**Component Routing Logic**:
+```typescript
+// Pseudo-code for router
+const exerciseComponent = {
+  reading: { part1: MatchingExercise, part2: MultipleChoiceExercise, part3: MatchingExercise },
+  sprachbausteine: { part1: ClozeMCExercise, part2: ClozeWordbankExercise },
+  listening: { part1: TrueFalseExercise, part2: TrueFalseExercise, part3: MatchingExercise },
+  writing: { task: WritingTask },
+  speaking: { part1: SpeakingTask, part2: SpeakingTask, part3: SpeakingTask },
+}
+```
 
-## Tasks 10-16 (Not Started)
-- **Task 10**: 7 exercise component types (MultipleChoice, FillBlank, Ordering, Matching, etc.)
-- **Task 11**: useTimer hook + TimerDisplay component
-- **Task 12**: useSession, useNotes hooks + SessionPanel component
-- **Task 13**: Exercise view page (orchestrator - routes through 7 components)
+## Remaining Tasks (4/4)
+- **Task 13**: Exercise view page (core orchestrator) ← NEXT
 - **Task 14**: Review components + results page
-- **Task 15**: Sessions/notes/settings pages
-- **Task 16**: Integration + polish
-
-## Key Files to Know
-- `src/lib/types.ts` - All TypeScript interfaces
-- `src/lib/constants.ts` - Test metadata, UI strings
-- `src/lib/db/index.ts` - Dexie schema
-- `src/components/layout.tsx` - Nav + sidebar + theme
-- `__tests__/` - Jest tests (scoring logic exists)
-- `content/` - Mock test JSON files
+- **Task 15**: Sessions, notes, settings pages
+- **Task 16**: Final integration & polish
 
 ## Git Status
-- All work committed to `main`
+- All 4 tasks (9-12) committed to main
 - No uncommitted changes
-- Safe to continue with new commits
+- Build passes ✅
 
 ## For Next Session
-```bash
-# Resume from Task 9
-git log --oneline -1          # Check latest commit
-cat HANDOFF.md                # Read this file
-# Then: /gsd-execute-phase or continue implementing manually
-```
-
-## Notes for Dev
-- Use existing useTestLoader hook for test data
-- Styling: Tailwind classes in existing pattern
-- Keep components in `src/components/exercise/` for org
-- Tests can be added post-implementation (Task 16)
-- TTS already wired up globally - don't reinit
+Start Task 13 with: `git log --oneline -1` to verify latest commit, then build the exercise orchestrator.
 
 ---
-**Updated**: 2026-06-10 | **By**: Claude Code | **Plan**: `/docs/superpowers/plans/2026-06-10-b1-practice-app.md`
+**Updated**: 2026-06-10 (Session 2) | **By**: Claude Code | **Full Plan**: `/docs/superpowers/plans/2026-06-10-b1-practice-app.md`
