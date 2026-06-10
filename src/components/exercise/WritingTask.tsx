@@ -3,12 +3,13 @@ import type { WritingTask as WritingTaskType } from "@/lib/types";
 
 interface Props {
   exercise: WritingTaskType;
-  answer: string;
+  answer: string | Record<string, any>;
   onAnswerChange: (value: string) => void;
 }
 
 export function WritingTask({ exercise, answer, onAnswerChange }: Props) {
-  const wordCount = answer.trim().split(/\s+/).filter((w) => w).length;
+  const answerStr = typeof answer === "string" ? answer : "";
+  const wordCount = answerStr.trim().split(/\s+/).filter((w) => w).length;
 
   return (
     <div className="space-y-6">
@@ -41,7 +42,7 @@ export function WritingTask({ exercise, answer, onAnswerChange }: Props) {
           </span>
         </div>
         <textarea
-          value={answer}
+          value={answerStr}
           onChange={(e) => onAnswerChange(e.target.value)}
           placeholder="Write your answer here..."
           className="w-full h-64 rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"
