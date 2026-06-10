@@ -2,7 +2,7 @@
 
 A full-stack web application for practicing the **telc Deutsch B1 exam**. Built with modern web technologies, offering interactive exercises, session tracking, scoring, and comprehensive review features.
 
-**Live Demo**: http://localhost:3000 (after running locally)
+**Live Demo**: [https://sudipidus.github.io/deutsch-tests](https://sudipidus.github.io/deutsch-tests)
 
 ---
 
@@ -110,6 +110,11 @@ A full-stack web application for practicing the **telc Deutsch B1 exam**. Built 
 - Handles new Next.js 16 API requirements
 - Type-safe with TypeScript
 
+### 8. **GitHub Pages Deployment**
+- `basePath` and `assetPrefix` configured for `/deutsch-tests` subpath
+- Conditional: only applies during CI build (`GITHUB_ACTIONS=true`)
+- Local development remains on `/` without subpath
+
 ---
 
 ## 📐 Architecture
@@ -165,14 +170,16 @@ App
 
 | Layer | Technology | Purpose |
 |-------|-----------|---------|
-| **Frontend** | React 18 | UI framework |
+| **Frontend** | React 19 | UI framework |
 | **Framework** | Next.js 16 | Full-stack React framework |
 | **Language** | TypeScript | Type safety |
 | **Styling** | Tailwind CSS | Utility-first CSS |
 | **Database** | Dexie.js | IndexedDB wrapper |
 | **Testing** | Jest | Unit testing |
 | **Build** | Turbopack | Fast bundler |
-| **Fonts** | Google Fonts | Typography |
+| **Fonts** | Google Fonts (Inter) | Typography |
+| **CI/CD** | GitHub Actions | Automated deployment |
+| **Hosting** | GitHub Pages | Static site hosting |
 
 ---
 
@@ -262,8 +269,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 # Create optimized build
 npm run build
 
-# Start production server
-npm start
+# Static output is in ./out
 ```
 
 ### Run Tests
@@ -314,7 +320,7 @@ npm test
 interface Session {
   id?: number;                    // Auto-increment
   testId: string;                 // Reference to test
-  mode: "exam" | "practice";      // Test mode
+  mode: "exam" | "practice";     // Test mode
   startedAt: Date;                // Test start time
   lastActivityAt: Date;           // Last update time
   completedAt: Date | null;       // Completion time
@@ -355,18 +361,17 @@ interface Settings {
 
 ## 🗺️ Routes
 
-| Route | Type | Purpose |
-|-------|------|---------|
-| `/` | SSG | Dashboard with test selection |
-| `/test/[id]` | SSG | Test overview with section breakdown |
-| `/test/[id]/exercise` | SSG | Interactive exercise flow |
-| `/test/[id]/review` | Dynamic | Results and score breakdown |
-| `/sessions` | Client | Session history and analytics |
-| `/notes` | Client | Note management interface |
-| `/settings` | Client | User preferences |
+| Route | Type | Purpose | Live Link |
+|-------|------|---------|-----------|
+| `/` | SSG | Dashboard with test selection | [Dashboard](https://sudipidus.github.io/deutsch-tests) |
+| `/test/[id]` | SSG | Test overview with section breakdown | [Test 01](https://sudipidus.github.io/deutsch-tests/test/test-01) |
+| `/test/[id]/exercise` | SSG | Interactive exercise flow | [Exercise](https://sudipidus.github.io/deutsch-tests/test/test-01/exercise) |
+| `/test/[id]/review` | SSG | Results and score breakdown | [Review](https://sudipidus.github.io/deutsch-tests/test/test-01/review) |
+| `/sessions` | Client | Session history and analytics | [Sessions](https://sudipidus.github.io/deutsch-tests/sessions) |
+| `/notes` | Client | Note management interface | [Notes](https://sudipidus.github.io/deutsch-tests/notes) |
+| `/settings` | Client | User preferences | [Settings](https://sudipidus.github.io/deutsch-tests/settings) |
 
 **SSG** = Static Site Generation (pre-built at build time)
-**Dynamic** = Server-rendered per request
 
 ---
 
@@ -452,7 +457,15 @@ isPassing = totalScore >= 120
 
 ## 🚢 Deployment
 
-### Vercel (Recommended)
+### GitHub Pages (Current)
+
+The app is automatically deployed to GitHub Pages on every push to `main`.
+
+**Live URL**: [https://sudipidus.github.io/deutsch-tests](https://sudipidus.github.io/deutsch-tests)
+
+**CI/CD**: GitHub Actions workflow in `.github/workflows/deploy.yml`
+
+### Vercel (Alternative)
 ```bash
 # Push to GitHub
 git push origin main
@@ -463,7 +476,7 @@ git push origin main
 
 ### Docker
 ```dockerfile
-FROM node:18-alpine
+FROM node:24-alpine
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
@@ -506,7 +519,7 @@ MIT License - See LICENSE file for details
 ## 🙋 Support
 
 For issues or questions:
-1. Check existing GitHub issues
+1. Check existing [GitHub issues](https://github.com/sudipidus/deutsch-tests/issues)
 2. Review code documentation
 3. Check COMPLETION.md for implementation details
 
